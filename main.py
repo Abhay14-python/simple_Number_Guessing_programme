@@ -1,3 +1,5 @@
+'''g = input guess by the user , tries = the number of tried it took'''
+print("This is a simple number guessing game by Abhay14-python")
 from random import randint
 while True:
     try:
@@ -16,3 +18,5 @@ while g != r:
     g = int(input("Guess the number : "))
 
 print(f"Correct Guess!!!. The number to guessed was {g} \n You guessed it in {tries} tries")
+
+print("Thanks for your support!")
